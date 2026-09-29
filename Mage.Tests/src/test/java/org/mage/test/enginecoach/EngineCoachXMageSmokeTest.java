@@ -9,6 +9,7 @@ import org.mage.test.serverside.base.CardTestPlayerBase;
  * Engine Coach — XMage Integration Feasibility X1
  * Pinned upstream basis: magefree/mage@3d3f4320ed0bb07cb2331f29e3d7cdadf5746ac0
  * CI trigger refresh after enabling GitHub Actions.
+ * CI trigger refresh after security setting change.
  */
 public class EngineCoachXMageSmokeTest extends CardTestPlayerBase {
 
