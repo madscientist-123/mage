@@ -8,6 +8,12 @@ on:
     paths:
       - 'Mage.Tests/src/test/java/org/mage/test/enginecoach/**'
       - '.github/workflows/engine-coach-x1.yml'
+  pull_request:
+    branches:
+      - master
+    paths:
+      - 'Mage.Tests/src/test/java/org/mage/test/enginecoach/**'
+      - '.github/workflows/engine-coach-x1.yml'
 
 jobs:
   x1-smoke:
