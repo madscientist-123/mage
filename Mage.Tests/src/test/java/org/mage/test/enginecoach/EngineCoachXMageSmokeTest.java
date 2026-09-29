@@ -36,6 +36,9 @@ public class EngineCoachXMageSmokeTest extends CardTestPlayerBase {
         addCard(Zone.HAND, playerA, "Rapacious Dragon");
 
         castSpell(1, PhaseStep.PRECOMBAT_MAIN, playerA, "Rapacious Dragon");
+        // Rapacious Dragon and Lathliss trigger at the same time; XMage strict test mode
+        // requires the controller to specify trigger ordering explicitly.
+        setChoice(playerA, "Whenever another nontoken Dragon");
         setStopAt(1, PhaseStep.END_TURN);
         execute();
 
